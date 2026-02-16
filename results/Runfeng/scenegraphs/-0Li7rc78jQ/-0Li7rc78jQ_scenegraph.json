@@ -1,0 +1,244 @@
+{
+    "video": "-0Li7rc78jQ",
+    "frames": [
+        {
+            "frame_index": 120,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        278.0,
+                        78.0,
+                        277.0,
+                        260.0
+                    ],
+                    "center": [
+                        416.5,
+                        208.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        415.0,
+                        0.0,
+                        174.0,
+                        204.0
+                    ],
+                    "center": [
+                        502.0,
+                        102.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        251.0,
+                        127.0,
+                        82.0,
+                        139.0
+                    ],
+                    "center": [
+                        292.0,
+                        196.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "Based on the given pixel coordinates, Object A and Object B appear to be two distinct entities within the image. Without additional context or detailed visual information, it's challenging to determine a precise relationship between them. However, given the coordinates, it seems they"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "Based on the pixel coordinates provided, Object A and Object B appear to be two distinct entities within the image. Given the lack of clear context or additional details, it is challenging to determine a precise relationship between them. However, considering the general possibilities:"
+                }
+            ]
+        },
+        {
+            "frame_index": 121,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        276.0,
+                        81.0,
+                        273.0,
+                        265.0
+                    ],
+                    "center": [
+                        412.5,
+                        213.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        412.0,
+                        0.0,
+                        171.0,
+                        204.0
+                    ],
+                    "center": [
+                        497.5,
+                        102.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        255.0,
+                        132.0,
+                        77.0,
+                        134.0
+                    ],
+                    "center": [
+                        293.5,
+                        199.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        304.0,
+                        74.0,
+                        66.0,
+                        86.0
+                    ],
+                    "center": [
+                        337.0,
+                        117.0
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "< cars, passing, car >"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "< person, holding, dog >"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "< person, standing next to, person >"
+                }
+            ]
+        },
+        {
+            "frame_index": 122,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        271.0,
+                        98.0,
+                        279.0,
+                        270.0
+                    ],
+                    "center": [
+                        410.5,
+                        233.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        403.0,
+                        7.0,
+                        175.0,
+                        209.0
+                    ],
+                    "center": [
+                        490.5,
+                        111.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        260.0,
+                        141.0,
+                        76.0,
+                        132.0
+                    ],
+                    "center": [
+                        298.0,
+                        207.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        308.0,
+                        82.0,
+                        68.0,
+                        81.0
+                    ],
+                    "center": [
+                        342.0,
+                        122.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "< cars, passing, car >"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "< person, sitting on, person >"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "< person, standing next to, person >"
+                }
+            ]
+        }
+    ]
+}

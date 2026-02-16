@@ -1,0 +1,371 @@
+{
+    "video": "--TSmh3wj9I",
+    "frames": [
+        {
+            "frame_index": 150,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        799.0,
+                        431.0,
+                        40.0,
+                        49.0
+                    ],
+                    "center": [
+                        819.0,
+                        455.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        414.0,
+                        186.0,
+                        171.0,
+                        294.0
+                    ],
+                    "center": [
+                        499.5,
+                        333.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        669.0,
+                        351.0,
+                        145.0,
+                        107.0
+                    ],
+                    "center": [
+                        741.5,
+                        404.5
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        802.0,
+                        480.0
+                    ],
+                    "center": [
+                        401.0,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        326.0,
+                        122.0,
+                        247.0,
+                        43.0
+                    ],
+                    "center": [
+                        449.5,
+                        143.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "< person, holding, phone >"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "Based on the given pixel coordinates, Object A is located at (150.0, 104.5) and Object B is located at (72.5, 53.5). The coordinates suggest that Object A"
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "< holding >"
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "Based on the image, the plausible relation between the two objects (hands) is:\n\n< holding >\n\nThe hands appear to be holding a bottle together."
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "The plausible relation between the two objects in the image is \"holding.\""
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "< holding >"
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "Based on the image and the given coordinates, the plausible relation between the two objects (hands) is:\n\n< touching >"
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "< holding >"
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "Based on the image, the plausible relation between the two objects (hands) is:\n\n< holding >\n\nThe hands appear to be holding each other, suggesting a gesture of support or connection."
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "< holding >"
+                }
+            ]
+        },
+        {
+            "frame_index": 151,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        798.0,
+                        430.0,
+                        43.0,
+                        50.0
+                    ],
+                    "center": [
+                        819.5,
+                        455.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        414.0,
+                        187.0,
+                        169.0,
+                        293.0
+                    ],
+                    "center": [
+                        498.5,
+                        333.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        669.0,
+                        350.0,
+                        144.0,
+                        107.0
+                    ],
+                    "center": [
+                        741.0,
+                        403.5
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        800.0,
+                        480.0
+                    ],
+                    "center": [
+                        400.0,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        322.0,
+                        113.0,
+                        247.0,
+                        47.0
+                    ],
+                    "center": [
+                        445.5,
+                        136.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "Based on the image, the plausible relation between Object A and Object B is:\n\n< holding >\n\nThe person appears to be holding a bottle, which is likely Object A, with their hand positioned near Object B."
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "< overlapping >\n\nThe objects appear to overlap in the image, as their bounding areas intersect."
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "< holding >\n\nIn the image, it appears that Object A (the wine bottle) is being held by Object B (the person's hand). This suggests a \"holding\" relationship."
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "Based on the image, the plausible relation between the two objects (hands holding a bottle) is:\n\n< holding >"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "The plausible relation between the objects in the image is \"holding.\""
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "< holding >"
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "Based on the image and the given coordinates, the plausible relation between the two objects (hands) is:\n\n< touching >"
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "< holding >"
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "Based on the image, the plausible relation between the two objects (hands) is:\n\n< holding >\n\nThe hands appear to be holding a bottle together."
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "< holding >"
+                }
+            ]
+        },
+        {
+            "frame_index": 152,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        797.0,
+                        430.0,
+                        43.0,
+                        50.0
+                    ],
+                    "center": [
+                        818.5,
+                        455.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        408.0,
+                        182.0,
+                        172.0,
+                        298.0
+                    ],
+                    "center": [
+                        494.0,
+                        331.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        669.0,
+                        351.0,
+                        145.0,
+                        106.0
+                    ],
+                    "center": [
+                        741.5,
+                        404.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        799.0,
+                        480.0
+                    ],
+                    "center": [
+                        399.5,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        307.0,
+                        92.0,
+                        255.0,
+                        71.0
+                    ],
+                    "center": [
+                        434.5,
+                        127.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "< holding >\n\nThe person at Object B appears to be holding the bottle at Object A."
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "< overlapping >\n\nThe objects appear to overlap in the image, as their bounding areas intersect."
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "< holding >\n\nThe coordinates suggest that Object A (likely the wine bottle) is being held by Object B (likely the person's hand)."
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "The plausible relation between the two objects in the image is \"holding.\" \n\nHere's the reasoning:\n\n1. **Object A** is located at pixel coordinates (511.5, 363.0).\n2. **Object B"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "< holding >\n\nThe image shows a person holding a bottle, with the hand and bottle being the two objects. The coordinates suggest that the hand is grasping the bottle."
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "< holding >\n\nThe plausible relation between the objects in the image is that one object (likely a hand) is holding the other object (likely a bottle)."
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "Based on the image, the plausible relation between the two objects (hands) is:\n\n< touching >"
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "< holding >\n\nThe coordinates suggest that Object A (likely the wine bottle) is being held by Object B (likely the person's hand)."
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "Based on the image, the plausible relation between the two objects (hands) is:\n\n< holding >\n\nThe hands appear to be holding something together, likely a bottle or container."
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "< holding >\n\nThe plausible relation between the objects in the image is that one object (likely a hand) is holding the other object (likely a bottle)."
+                }
+            ]
+        }
+    ]
+}

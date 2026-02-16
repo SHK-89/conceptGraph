@@ -1,0 +1,667 @@
+{
+    "video": "-0TvmZ9L0ho",
+    "frames": [
+        {
+            "frame_index": 180,
+            "objects": [
+                {
+                    "id": 1,
+                    "bbox": [
+                        179.0,
+                        138.0,
+                        675.0,
+                        342.0
+                    ],
+                    "center": [
+                        516.5,
+                        309.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        0.0,
+                        199.0,
+                        246.0,
+                        281.0
+                    ],
+                    "center": [
+                        123.0,
+                        339.5
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        230.0,
+                        23.0,
+                        89.0,
+                        255.0
+                    ],
+                    "center": [
+                        274.5,
+                        150.5
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        0.0,
+                        457.0,
+                        119.0,
+                        23.0
+                    ],
+                    "center": [
+                        59.5,
+                        468.5
+                    ]
+                },
+                {
+                    "id": 6,
+                    "bbox": [
+                        224.0,
+                        419.0,
+                        125.0,
+                        61.0
+                    ],
+                    "center": [
+                        286.5,
+                        449.5
+                    ]
+                },
+                {
+                    "id": 8,
+                    "bbox": [
+                        72.0,
+                        267.0,
+                        89.0,
+                        43.0
+                    ],
+                    "center": [
+                        116.5,
+                        288.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "< child, washing, bowl >"
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "Based on the image, the plausible relation between the two objects (a person and a chair) is:\n\n< sitting >"
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "< child, washing, bowl >"
+                },
+                {
+                    "src": 1,
+                    "dst": 6,
+                    "relation": "< child, holding, balloon >"
+                },
+                {
+                    "src": 1,
+                    "dst": 8,
+                    "relation": "< child, holding, pan >"
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "< sink, faucet, basin >"
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "< car, parked beside, car >"
+                },
+                {
+                    "src": 2,
+                    "dst": 6,
+                    "relation": "< side by side >"
+                },
+                {
+                    "src": 2,
+                    "dst": 8,
+                    "relation": "< car, parked beside, car >"
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "< sink, faucet, basin >"
+                },
+                {
+                    "src": 4,
+                    "dst": 6,
+                    "relation": "< unknown, unknown, unknown >"
+                },
+                {
+                    "src": 4,
+                    "dst": 8,
+                    "relation": "< person, using, sink >"
+                },
+                {
+                    "src": 5,
+                    "dst": 6,
+                    "relation": "< unknown, unknown, unknown >"
+                },
+                {
+                    "src": 5,
+                    "dst": 8,
+                    "relation": "< unknown, unknown, unknown >"
+                },
+                {
+                    "src": 6,
+                    "dst": 8,
+                    "relation": "< no relation >"
+                }
+            ]
+        },
+        {
+            "frame_index": 181,
+            "objects": [
+                {
+                    "id": 1,
+                    "bbox": [
+                        171.0,
+                        135.0,
+                        683.0,
+                        345.0
+                    ],
+                    "center": [
+                        512.5,
+                        307.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        0.0,
+                        196.0,
+                        236.0,
+                        284.0
+                    ],
+                    "center": [
+                        118.0,
+                        338.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        222.0,
+                        20.0,
+                        85.0,
+                        254.0
+                    ],
+                    "center": [
+                        264.5,
+                        147.0
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        0.0,
+                        460.0,
+                        83.0,
+                        20.0
+                    ],
+                    "center": [
+                        41.5,
+                        470.0
+                    ]
+                },
+                {
+                    "id": 6,
+                    "bbox": [
+                        183.0,
+                        413.0,
+                        148.0,
+                        67.0
+                    ],
+                    "center": [
+                        257.0,
+                        446.5
+                    ]
+                },
+                {
+                    "id": 8,
+                    "bbox": [
+                        76.0,
+                        267.0,
+                        77.0,
+                        38.0
+                    ],
+                    "center": [
+                        114.5,
+                        286.0
+                    ]
+                },
+                {
+                    "id": 12,
+                    "bbox": [
+                        0.0,
+                        133.0,
+                        93.0,
+                        158.0
+                    ],
+                    "center": [
+                        46.5,
+                        212.0
+                    ]
+                },
+                {
+                    "id": 16,
+                    "bbox": [
+                        0.0,
+                        186.0,
+                        35.0,
+                        131.0
+                    ],
+                    "center": [
+                        17.5,
+                        251.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "< person, holding, pan >"
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "< person, holding, pan >"
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "< person, holding, pan >"
+                },
+                {
+                    "src": 1,
+                    "dst": 6,
+                    "relation": "< person, holding, bowl >"
+                },
+                {
+                    "src": 1,
+                    "dst": 8,
+                    "relation": "< child, holding, bowl >"
+                },
+                {
+                    "src": 1,
+                    "dst": 12,
+                    "relation": "< person, holding, pan >"
+                },
+                {
+                    "src": 1,
+                    "dst": 16,
+                    "relation": "< person, holding, pan >"
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "< sink, faucet, bottle >"
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "< car, parked beside, object >"
+                },
+                {
+                    "src": 2,
+                    "dst": 6,
+                    "relation": "< unknown, unknown, unknown >"
+                },
+                {
+                    "src": 2,
+                    "dst": 8,
+                    "relation": "< car, parked beside, car >"
+                },
+                {
+                    "src": 2,
+                    "dst": 12,
+                    "relation": "< sink, faucet, basin >"
+                },
+                {
+                    "src": 2,
+                    "dst": 16,
+                    "relation": "< no relation >"
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "< sink, faucet, bottle >"
+                },
+                {
+                    "src": 4,
+                    "dst": 6,
+                    "relation": "< child, in front of, adult >"
+                },
+                {
+                    "src": 4,
+                    "dst": 8,
+                    "relation": "< child, using, sink >"
+                },
+                {
+                    "src": 4,
+                    "dst": 12,
+                    "relation": "< side by side >"
+                },
+                {
+                    "src": 4,
+                    "dst": 16,
+                    "relation": "< child, holding, bottle >"
+                },
+                {
+                    "src": 5,
+                    "dst": 6,
+                    "relation": "< unknown, unknown, unknown >"
+                },
+                {
+                    "src": 5,
+                    "dst": 8,
+                    "relation": "< car, parked beside, car >"
+                },
+                {
+                    "src": 5,
+                    "dst": 12,
+                    "relation": "< parallel, lines >"
+                },
+                {
+                    "src": 5,
+                    "dst": 16,
+                    "relation": "< parallel, on, road >"
+                },
+                {
+                    "src": 6,
+                    "dst": 8,
+                    "relation": "The plausible relation between the two objects in the image is \"container, holding, ball\". Object A appears to be a sink, and Object B appears to be a ball positioned near the sink."
+                },
+                {
+                    "src": 6,
+                    "dst": 12,
+                    "relation": "< no relation >"
+                },
+                {
+                    "src": 6,
+                    "dst": 16,
+                    "relation": "< no relation >"
+                },
+                {
+                    "src": 8,
+                    "dst": 12,
+                    "relation": "< car, parked, object >"
+                },
+                {
+                    "src": 8,
+                    "dst": 16,
+                    "relation": "< car, in front of, windshield >"
+                },
+                {
+                    "src": 12,
+                    "dst": 16,
+                    "relation": "< parallel, on, road >"
+                }
+            ]
+        },
+        {
+            "frame_index": 182,
+            "objects": [
+                {
+                    "id": 1,
+                    "bbox": [
+                        165.0,
+                        131.0,
+                        689.0,
+                        349.0
+                    ],
+                    "center": [
+                        509.5,
+                        305.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        0.0,
+                        191.0,
+                        230.0,
+                        289.0
+                    ],
+                    "center": [
+                        115.0,
+                        335.5
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        216.0,
+                        14.0,
+                        88.0,
+                        238.0
+                    ],
+                    "center": [
+                        260.0,
+                        133.0
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        0.0,
+                        466.0,
+                        57.0,
+                        14.0
+                    ],
+                    "center": [
+                        28.5,
+                        473.0
+                    ]
+                },
+                {
+                    "id": 6,
+                    "bbox": [
+                        147.0,
+                        400.0,
+                        169.0,
+                        80.0
+                    ],
+                    "center": [
+                        231.5,
+                        440.0
+                    ]
+                },
+                {
+                    "id": 8,
+                    "bbox": [
+                        67.0,
+                        262.0,
+                        79.0,
+                        40.0
+                    ],
+                    "center": [
+                        106.5,
+                        282.0
+                    ]
+                },
+                {
+                    "id": 12,
+                    "bbox": [
+                        0.0,
+                        128.0,
+                        86.0,
+                        160.0
+                    ],
+                    "center": [
+                        43.0,
+                        208.0
+                    ]
+                },
+                {
+                    "id": 16,
+                    "bbox": [
+                        0.0,
+                        183.0,
+                        14.0,
+                        119.0
+                    ],
+                    "center": [
+                        7.0,
+                        242.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "< person, holding, pan >"
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "< person, holding, pan >"
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "< person, holding, pan >"
+                },
+                {
+                    "src": 1,
+                    "dst": 6,
+                    "relation": "< person, holding, pan >"
+                },
+                {
+                    "src": 1,
+                    "dst": 8,
+                    "relation": "< child, washing, dish >"
+                },
+                {
+                    "src": 1,
+                    "dst": 12,
+                    "relation": "< person, holding, pan >"
+                },
+                {
+                    "src": 1,
+                    "dst": 16,
+                    "relation": "< person, holding, pan >"
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "< sink, next to, bottle >"
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "< sink, faucet, basin >"
+                },
+                {
+                    "src": 2,
+                    "dst": 6,
+                    "relation": "< sink, faucet, basin >"
+                },
+                {
+                    "src": 2,
+                    "dst": 8,
+                    "relation": "< sink, faucet, basin >"
+                },
+                {
+                    "src": 2,
+                    "dst": 12,
+                    "relation": "< child, using, vacuum cleaner >"
+                },
+                {
+                    "src": 2,
+                    "dst": 16,
+                    "relation": "Based on the image and the given pixel coordinates, the plausible relation between Object A and Object B is that they are parts of a faucet and a sink, respectively. Therefore, the relation can be described as:\n\n< faucet, over, sink >"
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "< sink, faucet, bottle >"
+                },
+                {
+                    "src": 4,
+                    "dst": 6,
+                    "relation": "< unrelated >"
+                },
+                {
+                    "src": 4,
+                    "dst": 8,
+                    "relation": "Based on the image, the plausible relation between the objects is that they are both on a kitchen counter, possibly near a sink. Therefore, the relation could be:\n\n< objects, on, counter >"
+                },
+                {
+                    "src": 4,
+                    "dst": 12,
+                    "relation": "< bottles, next to, sink >"
+                },
+                {
+                    "src": 4,
+                    "dst": 16,
+                    "relation": "The plausible relation between the objects in the image is \"side by side.\""
+                },
+                {
+                    "src": 5,
+                    "dst": 6,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 5,
+                    "dst": 8,
+                    "relation": "< car, parked beside, car >"
+                },
+                {
+                    "src": 5,
+                    "dst": 12,
+                    "relation": "< parallel, on, road >"
+                },
+                {
+                    "src": 5,
+                    "dst": 16,
+                    "relation": "< parallel, positioned >"
+                },
+                {
+                    "src": 6,
+                    "dst": 8,
+                    "relation": "< unknown, unknown, unknown >"
+                },
+                {
+                    "src": 6,
+                    "dst": 12,
+                    "relation": "< unrelated >"
+                },
+                {
+                    "src": 6,
+                    "dst": 16,
+                    "relation": "Based on the image and the given pixel coordinates, the plausible relation between Object A and Object B is:\n\n< sink, faucet, basin >"
+                },
+                {
+                    "src": 8,
+                    "dst": 12,
+                    "relation": "< car, on, road >"
+                },
+                {
+                    "src": 8,
+                    "dst": 16,
+                    "relation": "< car, parked beside, car >"
+                },
+                {
+                    "src": 12,
+                    "dst": 16,
+                    "relation": "< parallel, positioned, objects >"
+                }
+            ]
+        }
+    ]
+}

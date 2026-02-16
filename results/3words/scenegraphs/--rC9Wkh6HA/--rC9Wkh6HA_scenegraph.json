@@ -1,0 +1,409 @@
+{
+    "video": "--rC9Wkh6HA",
+    "frames": [
+        {
+            "frame_index": 210,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        853.0,
+                        479.0
+                    ],
+                    "center": [
+                        426.5,
+                        239.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        1.0,
+                        0.0,
+                        476.0,
+                        328.0
+                    ],
+                    "center": [
+                        239.0,
+                        164.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        183.0,
+                        103.0,
+                        235.0,
+                        343.0
+                    ],
+                    "center": [
+                        300.5,
+                        274.5
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        404.0,
+                        253.0,
+                        65.0,
+                        78.0
+                    ],
+                    "center": [
+                        436.5,
+                        292.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        0.0,
+                        191.0,
+                        81.0,
+                        58.0
+                    ],
+                    "center": [
+                        40.5,
+                        220.0
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "Fueling engine."
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "Fueling car engine."
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "Fueling car engine."
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "\"Engine components\""
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "Fuel container and engine."
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "\"Driver and passenger\""
+                }
+            ]
+        },
+        {
+            "frame_index": 211,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        854.0,
+                        480.0
+                    ],
+                    "center": [
+                        427.0,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        473.0,
+                        327.0
+                    ],
+                    "center": [
+                        236.5,
+                        163.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        184.0,
+                        104.0,
+                        233.0,
+                        342.0
+                    ],
+                    "center": [
+                        300.5,
+                        275.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        403.0,
+                        250.0,
+                        64.0,
+                        77.0
+                    ],
+                    "center": [
+                        435.0,
+                        288.5
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        0.0,
+                        191.0,
+                        80.0,
+                        58.0
+                    ],
+                    "center": [
+                        40.0,
+                        220.0
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        6.0,
+                        138.0,
+                        60.0,
+                        50.0
+                    ],
+                    "center": [
+                        36.0,
+                        163.0
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 0,
+                    "dst": 5,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "Fuel container and car."
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "Fuel container and engine."
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "Fuel container and car engine."
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "Fuel container and car engine."
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "\"Fuel pump and filter\""
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "Fuel container and engine."
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "Fuel container and car engine."
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "Fuel pump and engine."
+                },
+                {
+                    "src": 3,
+                    "dst": 5,
+                    "relation": "\"Fuel pump and engine\""
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "Objects are close together."
+                }
+            ]
+        },
+        {
+            "frame_index": 212,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        854.0,
+                        480.0
+                    ],
+                    "center": [
+                        427.0,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        473.0,
+                        322.0
+                    ],
+                    "center": [
+                        236.5,
+                        161.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        183.0,
+                        104.0,
+                        234.0,
+                        343.0
+                    ],
+                    "center": [
+                        300.0,
+                        275.5
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        402.0,
+                        252.0,
+                        65.0,
+                        74.0
+                    ],
+                    "center": [
+                        434.5,
+                        289.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        0.0,
+                        191.0,
+                        79.0,
+                        57.0
+                    ],
+                    "center": [
+                        39.5,
+                        219.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "Oil container and engine."
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "Fuel container and engine."
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "Fuel container and engine."
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "Fueling car engine."
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "Fuel container and car engine."
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "Fuel pump and car."
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "Fuel container and engine."
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "Fuel pump and engine."
+                }
+            ]
+        }
+    ]
+}

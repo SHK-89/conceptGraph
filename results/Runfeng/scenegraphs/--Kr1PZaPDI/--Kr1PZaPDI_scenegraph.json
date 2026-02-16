@@ -1,0 +1,221 @@
+{
+    "video": "--Kr1PZaPDI",
+    "frames": [
+        {
+            "frame_index": 0,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        177.0,
+                        0.0,
+                        462.0,
+                        479.0
+                    ],
+                    "center": [
+                        408.0,
+                        239.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        192.0,
+                        370.0
+                    ],
+                    "center": [
+                        96.0,
+                        185.0
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "< person, holding, phone >"
+                }
+            ]
+        },
+        {
+            "frame_index": 1,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        117.0,
+                        0.0,
+                        523.0,
+                        480.0
+                    ],
+                    "center": [
+                        378.5,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        202.0,
+                        304.0
+                    ],
+                    "center": [
+                        101.0,
+                        152.0
+                    ]
+                },
+                {
+                    "id": 10,
+                    "bbox": [
+                        0.0,
+                        398.0,
+                        126.0,
+                        82.0
+                    ],
+                    "center": [
+                        63.0,
+                        439.0
+                    ]
+                },
+                {
+                    "id": 11,
+                    "bbox": [
+                        0.0,
+                        228.0,
+                        190.0,
+                        198.0
+                    ],
+                    "center": [
+                        95.0,
+                        327.0
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 0,
+                    "dst": 10,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 0,
+                    "dst": 11,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 1,
+                    "dst": 10,
+                    "relation": "< side by side >"
+                },
+                {
+                    "src": 1,
+                    "dst": 11,
+                    "relation": "< side by side >"
+                },
+                {
+                    "src": 10,
+                    "dst": 11,
+                    "relation": "< person, standing next to, person >"
+                }
+            ]
+        },
+        {
+            "frame_index": 2,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        117.0,
+                        0.0,
+                        523.0,
+                        480.0
+                    ],
+                    "center": [
+                        378.5,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        202.0,
+                        306.0
+                    ],
+                    "center": [
+                        101.0,
+                        153.0
+                    ]
+                },
+                {
+                    "id": 10,
+                    "bbox": [
+                        0.0,
+                        392.0,
+                        125.0,
+                        88.0
+                    ],
+                    "center": [
+                        62.5,
+                        436.0
+                    ]
+                },
+                {
+                    "id": 11,
+                    "bbox": [
+                        0.0,
+                        226.0,
+                        192.0,
+                        201.0
+                    ],
+                    "center": [
+                        96.0,
+                        326.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 0,
+                    "dst": 10,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 0,
+                    "dst": 11,
+                    "relation": "< person, standing next to, person >"
+                },
+                {
+                    "src": 1,
+                    "dst": 10,
+                    "relation": "< side by side >"
+                },
+                {
+                    "src": 1,
+                    "dst": 11,
+                    "relation": "< side by side >"
+                },
+                {
+                    "src": 10,
+                    "dst": 11,
+                    "relation": "< person, standing next to, person >"
+                }
+            ]
+        }
+    ]
+}

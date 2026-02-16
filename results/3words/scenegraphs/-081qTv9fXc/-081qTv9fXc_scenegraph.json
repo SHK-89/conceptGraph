@@ -1,0 +1,932 @@
+{
+    "video": "-081qTv9fXc",
+    "frames": [
+        {
+            "frame_index": 90,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        363.0,
+                        119.0,
+                        137.0,
+                        113.0
+                    ],
+                    "center": [
+                        431.5,
+                        175.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        107.0,
+                        0.0,
+                        580.0,
+                        479.0
+                    ],
+                    "center": [
+                        397.0,
+                        239.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        107.0,
+                        20.0,
+                        565.0,
+                        459.0
+                    ],
+                    "center": [
+                        389.5,
+                        249.5
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        630.0,
+                        195.0,
+                        118.0,
+                        284.0
+                    ],
+                    "center": [
+                        689.0,
+                        337.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        728.0,
+                        346.0,
+                        20.0,
+                        60.0
+                    ],
+                    "center": [
+                        738.0,
+                        376.0
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        106.0,
+                        82.0,
+                        35.0,
+                        33.0
+                    ],
+                    "center": [
+                        123.5,
+                        98.5
+                    ]
+                },
+                {
+                    "id": 6,
+                    "bbox": [
+                        253.0,
+                        0.0,
+                        44.0,
+                        14.0
+                    ],
+                    "center": [
+                        275.0,
+                        7.0
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "\"Applying medical test\""
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "\"Person holding paper\""
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "Person holding paper"
+                },
+                {
+                    "src": 0,
+                    "dst": 5,
+                    "relation": "Person holding paper."
+                },
+                {
+                    "src": 0,
+                    "dst": 6,
+                    "relation": "Hand holding paper."
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "\"Hands applying tape\""
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "\"Applying medical test\""
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 1,
+                    "dst": 6,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "\"Hands holding paper\""
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "\"Hands holding paper\""
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "\"Applying medical test\""
+                },
+                {
+                    "src": 2,
+                    "dst": 6,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "\"Objects A and B\""
+                },
+                {
+                    "src": 3,
+                    "dst": 5,
+                    "relation": "\"Person applying wax strip\""
+                },
+                {
+                    "src": 3,
+                    "dst": 6,
+                    "relation": "\"Person removing hair\""
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "Person applying wax strip"
+                },
+                {
+                    "src": 4,
+                    "dst": 6,
+                    "relation": "Hand applying wax strip."
+                },
+                {
+                    "src": 5,
+                    "dst": 6,
+                    "relation": "\"Opposite sides\""
+                }
+            ]
+        },
+        {
+            "frame_index": 91,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        366.0,
+                        123.0,
+                        133.0,
+                        109.0
+                    ],
+                    "center": [
+                        432.5,
+                        177.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        105.0,
+                        0.0,
+                        581.0,
+                        480.0
+                    ],
+                    "center": [
+                        395.5,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        105.0,
+                        0.0,
+                        568.0,
+                        480.0
+                    ],
+                    "center": [
+                        389.0,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        631.0,
+                        196.0,
+                        118.0,
+                        284.0
+                    ],
+                    "center": [
+                        690.0,
+                        338.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        729.0,
+                        345.0,
+                        20.0,
+                        62.0
+                    ],
+                    "center": [
+                        739.0,
+                        376.0
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        106.0,
+                        80.0,
+                        39.0,
+                        37.0
+                    ],
+                    "center": [
+                        125.5,
+                        98.5
+                    ]
+                },
+                {
+                    "id": 6,
+                    "bbox": [
+                        255.0,
+                        0.0,
+                        43.0,
+                        14.0
+                    ],
+                    "center": [
+                        276.5,
+                        7.0
+                    ]
+                },
+                {
+                    "id": 10,
+                    "bbox": [
+                        247.0,
+                        0.0,
+                        34.0,
+                        87.0
+                    ],
+                    "center": [
+                        264.0,
+                        43.5
+                    ]
+                },
+                {
+                    "id": 16,
+                    "bbox": [
+                        105.0,
+                        49.0,
+                        38.0,
+                        37.0
+                    ],
+                    "center": [
+                        124.0,
+                        67.5
+                    ]
+                },
+                {
+                    "id": 19,
+                    "bbox": [
+                        106.0,
+                        300.0,
+                        10.0,
+                        25.0
+                    ],
+                    "center": [
+                        111.0,
+                        312.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "\"Person holding paper\""
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "Hand holding paper."
+                },
+                {
+                    "src": 0,
+                    "dst": 5,
+                    "relation": "Person applying wax strip."
+                },
+                {
+                    "src": 0,
+                    "dst": 6,
+                    "relation": "Hand holding paper."
+                },
+                {
+                    "src": 0,
+                    "dst": 10,
+                    "relation": "\"Person holding paper.\""
+                },
+                {
+                    "src": 0,
+                    "dst": 16,
+                    "relation": "Person interacting with paper."
+                },
+                {
+                    "src": 0,
+                    "dst": 19,
+                    "relation": "Person lying down"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "Close together horizontally."
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "\"Applying medical test\""
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "\"Applying medical test\""
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 1,
+                    "dst": 6,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 1,
+                    "dst": 10,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 1,
+                    "dst": 16,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 1,
+                    "dst": 19,
+                    "relation": "Person applying wax strip."
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "\"Applying medical test\""
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "\"Applying medical test\""
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 2,
+                    "dst": 6,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 2,
+                    "dst": 10,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 2,
+                    "dst": 16,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 2,
+                    "dst": 19,
+                    "relation": "\"Person applying tape\""
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "\"Objects on carpet\""
+                },
+                {
+                    "src": 3,
+                    "dst": 5,
+                    "relation": "Sticker on abdomen"
+                },
+                {
+                    "src": 3,
+                    "dst": 6,
+                    "relation": "\"Person applying wax strip\""
+                },
+                {
+                    "src": 3,
+                    "dst": 10,
+                    "relation": "\"Person removing hair\""
+                },
+                {
+                    "src": 3,
+                    "dst": 16,
+                    "relation": "\"Person applying wax strip\""
+                },
+                {
+                    "src": 3,
+                    "dst": 19,
+                    "relation": "Person holding jeans"
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "Person applying wax strip"
+                },
+                {
+                    "src": 4,
+                    "dst": 6,
+                    "relation": "Hand applying wax strip."
+                },
+                {
+                    "src": 4,
+                    "dst": 10,
+                    "relation": "Hand applying wax strip."
+                },
+                {
+                    "src": 4,
+                    "dst": 16,
+                    "relation": "Hand applying wax strip"
+                },
+                {
+                    "src": 4,
+                    "dst": 19,
+                    "relation": "\"Objects are apart.\""
+                },
+                {
+                    "src": 5,
+                    "dst": 6,
+                    "relation": "\"Opposite sides\""
+                },
+                {
+                    "src": 5,
+                    "dst": 10,
+                    "relation": "\"Objects A and B\""
+                },
+                {
+                    "src": 5,
+                    "dst": 16,
+                    "relation": "Objects A and B are close."
+                },
+                {
+                    "src": 5,
+                    "dst": 19,
+                    "relation": "Foreground and background."
+                },
+                {
+                    "src": 6,
+                    "dst": 10,
+                    "relation": "\"Objects A and B\""
+                },
+                {
+                    "src": 6,
+                    "dst": 16,
+                    "relation": "\"Objects are apart.\""
+                },
+                {
+                    "src": 6,
+                    "dst": 19,
+                    "relation": "\"Person standing apart\""
+                },
+                {
+                    "src": 10,
+                    "dst": 16,
+                    "relation": "\"Objects A and B\""
+                },
+                {
+                    "src": 10,
+                    "dst": 19,
+                    "relation": "Person standing apart"
+                },
+                {
+                    "src": 16,
+                    "dst": 19,
+                    "relation": "Foreground and background."
+                }
+            ]
+        },
+        {
+            "frame_index": 92,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        365.0,
+                        124.0,
+                        133.0,
+                        108.0
+                    ],
+                    "center": [
+                        431.5,
+                        178.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        105.0,
+                        0.0,
+                        583.0,
+                        480.0
+                    ],
+                    "center": [
+                        396.5,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        105.0,
+                        0.0,
+                        569.0,
+                        480.0
+                    ],
+                    "center": [
+                        389.5,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        631.0,
+                        199.0,
+                        118.0,
+                        281.0
+                    ],
+                    "center": [
+                        690.0,
+                        339.5
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        729.0,
+                        344.0,
+                        20.0,
+                        63.0
+                    ],
+                    "center": [
+                        739.0,
+                        375.5
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        106.0,
+                        75.0,
+                        46.0,
+                        61.0
+                    ],
+                    "center": [
+                        129.0,
+                        105.5
+                    ]
+                },
+                {
+                    "id": 6,
+                    "bbox": [
+                        254.0,
+                        0.0,
+                        96.0,
+                        14.0
+                    ],
+                    "center": [
+                        302.0,
+                        7.0
+                    ]
+                },
+                {
+                    "id": 10,
+                    "bbox": [
+                        247.0,
+                        0.0,
+                        35.0,
+                        87.0
+                    ],
+                    "center": [
+                        264.5,
+                        43.5
+                    ]
+                },
+                {
+                    "id": 16,
+                    "bbox": [
+                        106.0,
+                        51.0,
+                        37.0,
+                        33.0
+                    ],
+                    "center": [
+                        124.5,
+                        67.5
+                    ]
+                },
+                {
+                    "id": 19,
+                    "bbox": [
+                        106.0,
+                        301.0,
+                        11.0,
+                        32.0
+                    ],
+                    "center": [
+                        111.5,
+                        317.0
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "\"Applying wax strip\""
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "\"Person holding object\""
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "\"Person holding paper\""
+                },
+                {
+                    "src": 0,
+                    "dst": 5,
+                    "relation": "Person applying wax strip."
+                },
+                {
+                    "src": 0,
+                    "dst": 6,
+                    "relation": "Hand holding paper."
+                },
+                {
+                    "src": 0,
+                    "dst": 10,
+                    "relation": "Hand holding paper."
+                },
+                {
+                    "src": 0,
+                    "dst": 16,
+                    "relation": "Person interacting with paper."
+                },
+                {
+                    "src": 0,
+                    "dst": 19,
+                    "relation": "Person lying down"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "\"Hands holding tape\""
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "\"Applying medical test\""
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "\"Applying medical test\""
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 1,
+                    "dst": 6,
+                    "relation": "\"Applying wax strip\""
+                },
+                {
+                    "src": 1,
+                    "dst": 10,
+                    "relation": "\"Applying wax strip\""
+                },
+                {
+                    "src": 1,
+                    "dst": 16,
+                    "relation": "\"Applying wax strip\""
+                },
+                {
+                    "src": 1,
+                    "dst": 19,
+                    "relation": "\"Hands applying wax strip\""
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "\"Applying medical test\""
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "\"Applying medical test\""
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 2,
+                    "dst": 6,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 2,
+                    "dst": 10,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 2,
+                    "dst": 16,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 2,
+                    "dst": 19,
+                    "relation": "\"Applying medical tape\""
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "\"Objects A and B\""
+                },
+                {
+                    "src": 3,
+                    "dst": 5,
+                    "relation": "Person applying wax strip."
+                },
+                {
+                    "src": 3,
+                    "dst": 6,
+                    "relation": "\"Applying wax strip\""
+                },
+                {
+                    "src": 3,
+                    "dst": 10,
+                    "relation": "Person removing hair."
+                },
+                {
+                    "src": 3,
+                    "dst": 16,
+                    "relation": "\"Applying wax strip\""
+                },
+                {
+                    "src": 3,
+                    "dst": 19,
+                    "relation": "Person holding jeans."
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "Person applying wax strip."
+                },
+                {
+                    "src": 4,
+                    "dst": 6,
+                    "relation": "Hand applying wax strip."
+                },
+                {
+                    "src": 4,
+                    "dst": 10,
+                    "relation": "Hand applying wax strip."
+                },
+                {
+                    "src": 4,
+                    "dst": 16,
+                    "relation": "\"Applying wax strip\""
+                },
+                {
+                    "src": 4,
+                    "dst": 19,
+                    "relation": "\"Objects are apart.\""
+                },
+                {
+                    "src": 5,
+                    "dst": 6,
+                    "relation": "Person and dog."
+                },
+                {
+                    "src": 5,
+                    "dst": 10,
+                    "relation": "Person and dog."
+                },
+                {
+                    "src": 5,
+                    "dst": 16,
+                    "relation": "\"Objects A and B\""
+                },
+                {
+                    "src": 5,
+                    "dst": 19,
+                    "relation": "Foreground and background."
+                },
+                {
+                    "src": 6,
+                    "dst": 10,
+                    "relation": "\"Diagonally opposite objects\""
+                },
+                {
+                    "src": 6,
+                    "dst": 16,
+                    "relation": "\"Objects are apart.\""
+                },
+                {
+                    "src": 6,
+                    "dst": 19,
+                    "relation": "Person standing nearby."
+                },
+                {
+                    "src": 10,
+                    "dst": 16,
+                    "relation": "\"Objects A and B\""
+                },
+                {
+                    "src": 10,
+                    "dst": 19,
+                    "relation": "Person standing nearby."
+                },
+                {
+                    "src": 16,
+                    "dst": 19,
+                    "relation": "Foreground and background."
+                }
+            ]
+        }
+    ]
+}
