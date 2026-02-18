@@ -33,8 +33,7 @@ class SceneGraphJSONExporter:
                     {
                         "id": obj.obj_id,
                         "bbox": list(obj.bbox),
-                        "center": list(obj.center),
-                        "caption": obj.caption
+                        "center": list(obj.center)
                     }
                     for obj in objects
                 ],
