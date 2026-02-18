@@ -202,21 +202,6 @@ class InterVLCaptioner:
     - Do NOT mention "Object A" or "Object B".
     - Do NOT output a full sentence.
     """
-        # result in folder 3words:     Give the meaningful relationship between A and B using one short phrase (max 3 words)..
-        # short phrase: Give the meaningful relationship between A and B in one short phrase.
-        # single word: what is the plausible relation  between them? Answer with a single letter.For instance < adults, hugging, child >
-        # question = f"""
-        #   <image>
-        #
-        #   Two objects are present in this image.
-        #
-        #   Object A is located at pixel coordinates {centerA}.
-        #   Object B is located at pixel coordinates {centerB}.
-        #
-        #   Give the exact meaningful relationship between A and B in one word. for instance
-        #   holding, grabbing, sitting on and ignore spatial relation. If there is no meaningful relationship, answer "none".
-        #   """
-
         response = self.model.chat(
             self.tokenizer,
             pv,
