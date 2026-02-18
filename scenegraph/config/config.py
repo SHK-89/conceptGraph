@@ -17,5 +17,6 @@ class BatchConfig:
     draw_scene_graph: bool = False
     enable_caption: bool = False
     quiet_mode: bool = True
+    store_crop: bool = True
 
     resume: bool = True

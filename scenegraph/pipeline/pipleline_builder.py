@@ -2,7 +2,8 @@
 from scenegraph.segmentation.uvo_segmenter import UVOSegmenter
 from scenegraph.features.clip_encoder import CLIPEncoder
 from scenegraph.captioning.interVLCaptioner import InterVLCaptioner
-from scenegraph.pipeline.pipeline_runner import ConceptGraphsPipeline
+#from scenegraph.pipeline.pipeline_runner import ConceptGraphsPipeline
+from scenegraph.pipeline.concept_graph_pipeline import ConceptGraphsPipeline
 
 from scenegraph.config.config import BatchConfig
 

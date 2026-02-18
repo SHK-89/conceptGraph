@@ -1,7 +1,10 @@
 
 import os
 
+from scenegraph.core.scene_graph import VideoSceneGraph
+from scenegraph.io.json_exporter import SceneGraphJSONExporter
 from scenegraph.utils.json_export import save_master_video_json
+from scenegraph.visualization.scene_graph_visualizer import SceneGraphVisualizer
 from scenegraph.visualization.vis import visualize_all_frames
 
 from scenegraph.config.config import BatchConfig
@@ -28,17 +31,21 @@ def process_single_video(
         print(f"Skipping {video_name} (already processed).")
         return
 
-    result = pipeline.run(
+    scene_graph: VideoSceneGraph =  pipeline.run(
         video_path=video_path,
         video_name=video_name,
         annotation_pkl=ann_path,
         max_frames=config.max_frames
     )
 
-    result["output_dir"] = output_dir
-    result["video_name"] = video_name
-
+    SceneGraphJSONExporter.save(scene_graph, output_dir)
     if config.draw_scene_graph:
-        visualize_all_frames(result)
+        visualizer = SceneGraphVisualizer(output_dir=output_dir)
+        visualizer.visualize_video(scene_graph)
 
-    save_master_video_json(result)
+    print(f"✔ Finished {video_name}")
+
+    #if config.draw_scene_graph:
+     #   visualize_all_frames(result)
+
+    #save_master_video_json(result)
