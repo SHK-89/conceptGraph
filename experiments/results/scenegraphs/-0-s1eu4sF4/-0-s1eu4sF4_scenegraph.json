@@ -1,0 +1,485 @@
+{
+    "video": "-0-s1eu4sF4",
+    "frames": [
+        {
+            "frame_index": 30,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        492.0,
+                        420.0
+                    ],
+                    "center": [
+                        246.0,
+                        210.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        0.0,
+                        333.0,
+                        448.0,
+                        147.0
+                    ],
+                    "center": [
+                        224.0,
+                        406.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        209.0,
+                        304.0,
+                        154.0,
+                        176.0
+                    ],
+                    "center": [
+                        286.0,
+                        392.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        301.0,
+                        51.0,
+                        553.0,
+                        429.0
+                    ],
+                    "center": [
+                        577.5,
+                        265.5
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        265.0,
+                        0.0,
+                        331.0,
+                        339.0
+                    ],
+                    "center": [
+                        430.5,
+                        169.5
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        608.0,
+                        0.0,
+                        246.0,
+                        349.0
+                    ],
+                    "center": [
+                        731.0,
+                        174.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "person bucket\n\n< person, holding, bucket >"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "person bucket\n\n< person, holding, bucket >"
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "person bucket\n\n< person, holding, bucket >"
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "person, person  \n< person, pouring, bucket >"
+                },
+                {
+                    "src": 0,
+                    "dst": 5,
+                    "relation": "person, person  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "person, trash can  \n< person, touching, trash can >"
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "person, bucket  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "person, person  \n< person, interacting with, bucket >"
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "person, person  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "person  \nperson  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "person  \nperson  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "person  \nperson  \n< person, observing, bucket >"
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "shirt, hair  \n< person, washing, bucket >"
+                },
+                {
+                    "src": 3,
+                    "dst": 5,
+                    "relation": "person, person  \n< person, interacting with, bucket >"
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "person, person  \n< person, interacting with, person >"
+                }
+            ]
+        },
+        {
+            "frame_index": 31,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        492.0,
+                        418.0
+                    ],
+                    "center": [
+                        246.0,
+                        209.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        0.0,
+                        331.0,
+                        448.0,
+                        149.0
+                    ],
+                    "center": [
+                        224.0,
+                        405.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        210.0,
+                        301.0,
+                        149.0,
+                        179.0
+                    ],
+                    "center": [
+                        284.5,
+                        390.5
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        302.0,
+                        53.0,
+                        552.0,
+                        427.0
+                    ],
+                    "center": [
+                        578.0,
+                        266.5
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        268.0,
+                        0.0,
+                        326.0,
+                        336.0
+                    ],
+                    "center": [
+                        431.0,
+                        168.0
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        609.0,
+                        0.0,
+                        245.0,
+                        354.0
+                    ],
+                    "center": [
+                        731.5,
+                        177.0
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "person bucket\n\n< person, holding, bucket >"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "person bucket\n\n< person, holding, bucket >"
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "shirt, hair  \n< shirt, touching, hair >"
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "person, person  \n< person, pouring, bucket >"
+                },
+                {
+                    "src": 0,
+                    "dst": 5,
+                    "relation": "person, person  \n< person, standing beside, bucket >"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "person, hand\n\n< person, touching, water dispenser >"
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "person, person  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "person, person  \n< person, interacting with, bucket >"
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "person, person  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "person  \nperson  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "person  \nperson  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "person  \nperson  \n< person, observing, bucket >"
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "person, person  \n< person, interacting with, bucket >"
+                },
+                {
+                    "src": 3,
+                    "dst": 5,
+                    "relation": "person, person  \n< person, interacting with, bucket >"
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "person, person  \n< person, hugging, person >"
+                }
+            ]
+        },
+        {
+            "frame_index": 32,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        501.0,
+                        418.0
+                    ],
+                    "center": [
+                        250.5,
+                        209.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        0.0,
+                        334.0,
+                        444.0,
+                        146.0
+                    ],
+                    "center": [
+                        222.0,
+                        407.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        209.0,
+                        302.0,
+                        149.0,
+                        178.0
+                    ],
+                    "center": [
+                        283.5,
+                        391.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        301.0,
+                        50.0,
+                        553.0,
+                        430.0
+                    ],
+                    "center": [
+                        577.5,
+                        265.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        268.0,
+                        0.0,
+                        327.0,
+                        340.0
+                    ],
+                    "center": [
+                        431.5,
+                        170.0
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        610.0,
+                        0.0,
+                        244.0,
+                        350.0
+                    ],
+                    "center": [
+                        732.0,
+                        175.0
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "person, bucket  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "person pouring water  \nperson holding bucket  \nhugging"
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "shirt, hair  \n< shirt, touching, hair >"
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "person, person  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 0,
+                    "dst": 5,
+                    "relation": "person, person  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "Touching  \n< hand, touching, water dispenser >"
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "person, trash can  \n< person, throwing, trash can >"
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "person, person  \n< person, interacting with, bucket >"
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "person, person  \n< person, holding, bucket >"
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "person  \nperson  \n< person, observing, bucket >"
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "person  \nperson  \n< person, touching, bucket >"
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "shirt, person  \n< shirt, touching, person >"
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "person, person  \n< person, interacting with, bucket >"
+                },
+                {
+                    "src": 3,
+                    "dst": 5,
+                    "relation": "person, person  \n< person, interacting with, bucket >"
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "person  \nperson  \n< person, interacting with, person >"
+                }
+            ]
+        }
+    ]
+}

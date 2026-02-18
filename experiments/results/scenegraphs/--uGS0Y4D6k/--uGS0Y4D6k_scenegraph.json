@@ -1,0 +1,485 @@
+{
+    "video": "--uGS0Y4D6k",
+    "frames": [
+        {
+            "frame_index": 60,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        320.0,
+                        479.0
+                    ],
+                    "center": [
+                        160.0,
+                        239.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        286.0,
+                        66.0,
+                        353.0,
+                        351.0
+                    ],
+                    "center": [
+                        462.5,
+                        241.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        391.0,
+                        287.0,
+                        83.0,
+                        192.0
+                    ],
+                    "center": [
+                        432.5,
+                        383.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        323.0,
+                        0.0,
+                        213.0,
+                        104.0
+                    ],
+                    "center": [
+                        429.5,
+                        52.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        590.0,
+                        0.0,
+                        50.0,
+                        54.0
+                    ],
+                    "center": [
+                        615.0,
+                        27.0
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        183.0,
+                        61.0,
+                        104.0,
+                        418.0
+                    ],
+                    "center": [
+                        235.0,
+                        270.0
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "person holding paper\n\nperson holding paper\n\n< person, holding, paper >"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "person hand  \ntable  \n\n< person, holding, table >"
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "person holding\n\n< person, holding, box >"
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "person  \nwall  \n\n< person, touching, wall >"
+                },
+                {
+                    "src": 0,
+                    "dst": 5,
+                    "relation": "person hand  \nperson hand  \n< hand, touching, hand >"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "chair table  \n< chair, on, table >"
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "door hinge\n\nlight switch\n\ndoor hinge, connected to, light switch"
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "door hinge, doorknob, supporting"
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "door, wall, support"
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "door hinge\n\nwall socket\n\n< door hinge, attached to, wall socket >"
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "chair table\n\n< chair, on, table >"
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "person sitting  \nperson holding  \n\n< person sitting, holding, person holding >"
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "door hinge\n\nwall\n\ndoor hinge, attached to, wall"
+                },
+                {
+                    "src": 3,
+                    "dst": 5,
+                    "relation": "chair table\n\n< chair, leaning on, table >"
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "To analyze the image and provide the requested information, let's break down the task step by step:\n\n1. **Identify Object A at (432, 27):**\n   - The coordinates (432, 27"
+                }
+            ]
+        },
+        {
+            "frame_index": 61,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        321.0,
+                        480.0
+                    ],
+                    "center": [
+                        160.5,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        283.0,
+                        66.0,
+                        357.0,
+                        350.0
+                    ],
+                    "center": [
+                        461.5,
+                        241.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        391.0,
+                        288.0,
+                        83.0,
+                        192.0
+                    ],
+                    "center": [
+                        432.5,
+                        384.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        321.0,
+                        0.0,
+                        218.0,
+                        103.0
+                    ],
+                    "center": [
+                        430.0,
+                        51.5
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        591.0,
+                        0.0,
+                        49.0,
+                        49.0
+                    ],
+                    "center": [
+                        615.5,
+                        24.5
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        185.0,
+                        65.0,
+                        104.0,
+                        415.0
+                    ],
+                    "center": [
+                        237.0,
+                        272.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "person holding paper\n\nperson holding paper\n\n< person, holding, paper >"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "person hand  \nwall  \n< person, touching, wall >"
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "person holding bag\n\n< person, holding, bag >"
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "person holding paper\n\nperson near wall\n\n< person, holding, paper >"
+                },
+                {
+                    "src": 0,
+                    "dst": 5,
+                    "relation": "Hand, hand, holding"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "To analyze the image and provide the requested information, let's break down the task step by step:\n\n1. **Identify Object A at (178.5, 175.0):**\n   - The coordinates (17"
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "door, wall, adjacent"
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "door, wall, adjacent"
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "To analyze the image and provide the requested information, let's break down the task step by step:\n\n1. **Identify Object A**:\n   - Object A is located at pixel coordinates (276.5, 176."
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "door hinge, door\n\ndoor, attached to"
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "candle  \nlamp  \n\n< candle, near, lamp >"
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "person  \nwall  \n< person, leaning against, wall >"
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "door hinge\n\nwall\n\n< door hinge, attached to, wall >"
+                },
+                {
+                    "src": 3,
+                    "dst": 5,
+                    "relation": "To analyze the image and provide the requested information, let's break down the task step by step:\n\n1. **Identify Object A**:\n   - Coordinates: (245.0, 51.5)\n   - This location"
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "candle  \nwall  \n\n< candle, leaning, wall >"
+                }
+            ]
+        },
+        {
+            "frame_index": 62,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        0.0,
+                        0.0,
+                        321.0,
+                        480.0
+                    ],
+                    "center": [
+                        160.5,
+                        240.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        283.0,
+                        66.0,
+                        357.0,
+                        350.0
+                    ],
+                    "center": [
+                        461.5,
+                        241.0
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        391.0,
+                        288.0,
+                        82.0,
+                        192.0
+                    ],
+                    "center": [
+                        432.0,
+                        384.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "bbox": [
+                        322.0,
+                        0.0,
+                        214.0,
+                        103.0
+                    ],
+                    "center": [
+                        429.0,
+                        51.5
+                    ]
+                },
+                {
+                    "id": 4,
+                    "bbox": [
+                        590.0,
+                        0.0,
+                        50.0,
+                        51.0
+                    ],
+                    "center": [
+                        615.0,
+                        25.5
+                    ]
+                },
+                {
+                    "id": 5,
+                    "bbox": [
+                        186.0,
+                        67.0,
+                        101.0,
+                        413.0
+                    ],
+                    "center": [
+                        236.5,
+                        273.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "person, wall\n\n< person, leaning against, wall >"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "To analyze the image and provide the requested information, let's break down the task step by step:\n\n1. **Identify Object A at (160.5, 240.0):**\n   - The coordinates (16"
+                },
+                {
+                    "src": 0,
+                    "dst": 3,
+                    "relation": "person  \ndoor  \n\n< person, standing, door >"
+                },
+                {
+                    "src": 0,
+                    "dst": 4,
+                    "relation": "person, wall\n\n< person, leaning against, wall >"
+                },
+                {
+                    "src": 0,
+                    "dst": 5,
+                    "relation": "Cat  \nCat  \n\n< cat, sitting, cat >"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "To analyze the image and provide the requested information, let's break down the task step by step:\n\n1. **Identify Object A**:\n   - Object A is located at pixel coordinates (178.5, 175."
+                },
+                {
+                    "src": 1,
+                    "dst": 3,
+                    "relation": "door, wall, adjacent  \ndoor, window, adjacent"
+                },
+                {
+                    "src": 1,
+                    "dst": 4,
+                    "relation": "To analyze the image and provide the requested information, let's break down the task step by step:\n\n1. **Identify Object A**:\n   - Object A is located at pixel coordinates (178.5, 241."
+                },
+                {
+                    "src": 1,
+                    "dst": 5,
+                    "relation": "To analyze the image and provide the requested information, let's break down the task step by step:\n\n1. **Identify Object A**:\n   - Object A is located at pixel coordinates (275.5, 175."
+                },
+                {
+                    "src": 2,
+                    "dst": 3,
+                    "relation": "door hinge, door\n\n< door, attached to, door hinge >"
+                },
+                {
+                    "src": 2,
+                    "dst": 4,
+                    "relation": "chair table\n\n< chair, on, table >"
+                },
+                {
+                    "src": 2,
+                    "dst": 5,
+                    "relation": "chair table\n\n< chair, on, table >"
+                },
+                {
+                    "src": 3,
+                    "dst": 4,
+                    "relation": "door hinge\n\ndoor frame\n\ndoor hinge"
+                },
+                {
+                    "src": 3,
+                    "dst": 5,
+                    "relation": "chair table\n\n< chair, leaning on, table >"
+                },
+                {
+                    "src": 4,
+                    "dst": 5,
+                    "relation": "door, wall, adjacent"
+                }
+            ]
+        }
+    ]
+}

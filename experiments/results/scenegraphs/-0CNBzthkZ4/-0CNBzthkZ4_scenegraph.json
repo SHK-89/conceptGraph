@@ -1,0 +1,244 @@
+{
+    "video": "-0CNBzthkZ4",
+    "frames": [
+        {
+            "frame_index": 30,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        261.0,
+                        10.0,
+                        192.0,
+                        161.0
+                    ],
+                    "center": [
+                        357.0,
+                        90.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        297.0,
+                        34.0,
+                        474.0,
+                        445.0
+                    ],
+                    "center": [
+                        534.0,
+                        256.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        0.0,
+                        110.0,
+                        334.0,
+                        369.0
+                    ],
+                    "center": [
+                        167.0,
+                        294.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "brushing hair\n\nbrushing hair"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "comb hair  \n< comb, brushing, hair >"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "Father, child  \nparenting"
+                }
+            ]
+        },
+        {
+            "frame_index": 31,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        262.0,
+                        13.0,
+                        190.0,
+                        159.0
+                    ],
+                    "center": [
+                        357.0,
+                        92.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        298.0,
+                        37.0,
+                        473.0,
+                        443.0
+                    ],
+                    "center": [
+                        534.5,
+                        258.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        0.0,
+                        111.0,
+                        332.0,
+                        369.0
+                    ],
+                    "center": [
+                        166.0,
+                        295.5
+                    ]
+                },
+                {
+                    "id": 10,
+                    "bbox": [
+                        192.0,
+                        97.0,
+                        127.0,
+                        121.0
+                    ],
+                    "center": [
+                        255.5,
+                        157.5
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "brushing hair  \nparent grooming child"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "comb hair  \n< comb, brushing, hair >"
+                },
+                {
+                    "src": 0,
+                    "dst": 10,
+                    "relation": "brushing hair\n\n< hair, being combed by, brush >"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "Father, child  \nparenting"
+                },
+                {
+                    "src": 1,
+                    "dst": 10,
+                    "relation": "child  \nadult  \nparent interacting with child"
+                },
+                {
+                    "src": 2,
+                    "dst": 10,
+                    "relation": "ear hair  \nscalp  \n< ear, part_of, scalp >"
+                }
+            ]
+        },
+        {
+            "frame_index": 32,
+            "objects": [
+                {
+                    "id": 0,
+                    "bbox": [
+                        261.0,
+                        13.0,
+                        190.0,
+                        156.0
+                    ],
+                    "center": [
+                        356.0,
+                        91.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "bbox": [
+                        311.0,
+                        41.0,
+                        462.0,
+                        439.0
+                    ],
+                    "center": [
+                        542.0,
+                        260.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "bbox": [
+                        0.0,
+                        111.0,
+                        333.0,
+                        369.0
+                    ],
+                    "center": [
+                        166.5,
+                        295.5
+                    ]
+                },
+                {
+                    "id": 10,
+                    "bbox": [
+                        297.0,
+                        202.0,
+                        42.0,
+                        56.0
+                    ],
+                    "center": [
+                        318.0,
+                        230.0
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "src": 0,
+                    "dst": 1,
+                    "relation": "brushing hair  \nparent and child"
+                },
+                {
+                    "src": 0,
+                    "dst": 2,
+                    "relation": "Eye, Hair  \n< eye, near, hair >"
+                },
+                {
+                    "src": 0,
+                    "dst": 10,
+                    "relation": "person hand  \nperson face  \nhand touching face"
+                },
+                {
+                    "src": 1,
+                    "dst": 2,
+                    "relation": "Father, child  \nparenting"
+                },
+                {
+                    "src": 1,
+                    "dst": 10,
+                    "relation": "child, adult  \nparent, child"
+                },
+                {
+                    "src": 2,
+                    "dst": 10,
+                    "relation": "ear hair  \nscalp  \n< ear hair, part_of, scalp >"
+                }
+            ]
+        }
+    ]
+}
