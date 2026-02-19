@@ -41,7 +41,7 @@ def process_single_video(
     SceneGraphJSONExporter.save(scene_graph, output_dir)
     if config.draw_scene_graph:
         visualizer = SceneGraphVisualizer(output_dir=output_dir)
-        visualizer.visualize_video(scene_graph)
+        visualizer.visualize_video(scene_graph, config.draw_overlay)
 
     print(f"✔ Finished {video_name}")
 

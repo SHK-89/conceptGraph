@@ -130,7 +130,7 @@ class SceneGraphVisualizer:
     # -------------------------------------------------------
     # Visualize all frames
     # -------------------------------------------------------
-    def visualize_video(self, scene_graph: VideoSceneGraph):
+    def visualize_video(self, scene_graph: VideoSceneGraph, draw_overlay=True):
 
         for frame_idx, rgb in scene_graph.frames.items():
 
@@ -142,7 +142,8 @@ class SceneGraphVisualizer:
 
             # Draw image with objects
             vis_img = self.draw_objects_on_frame(rgb, objects)
-            vis_img = self.draw_relations_on_frame(vis_img,
+            if draw_overlay:
+                vis_img = self.draw_relations_on_frame(vis_img,
                                                    objects,
                                                    edges)
 

@@ -14,6 +14,7 @@ if __name__ == "__main__":
         device="cuda",
 
         draw_scene_graph=False,
+        draw_overlay=False,
         store_crop=True,
         enable_caption=False,
         quiet_mode=True,

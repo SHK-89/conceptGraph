@@ -15,6 +15,7 @@ class BatchConfig:
     device: str = "cuda"
 
     draw_scene_graph: bool = False
+    draw_overlay: bool = False
     enable_caption: bool = False
     quiet_mode: bool = True
     store_crop: bool = True
