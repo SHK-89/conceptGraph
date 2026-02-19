@@ -74,7 +74,6 @@ class InterVLCaptioner:
         self.model = AutoModel.from_pretrained(
             model_name,
             dtype=torch.bfloat16,
-            # load_8bit=False,
             low_cpu_mem_usage=True,
             use_flash_attn=True,
             trust_remote_code=True
