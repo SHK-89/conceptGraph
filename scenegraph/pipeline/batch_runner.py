@@ -15,7 +15,6 @@ def run_batch(config: BatchConfig):
     logger = setup_logger()
 
     logger.info("Starting batch processing...")
-    print("Starting batch processing...")
 
     dataset = UVOVideoDataset(
         video_dir=config.video_dir,

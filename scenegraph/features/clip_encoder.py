@@ -35,17 +35,6 @@ class CLIPEncoder:
         feat = feat / feat.norm(dim=-1, keepdim=True)
         return feat.squeeze().cpu().numpy()
 
-    def encode_crop(self, crop):
-        """RGB numpy crop → CLIP embedding."""
-        pil = Image.fromarray(crop.astype(np.uint8))
-        px = self.preprocess(pil).unsqueeze(0).to(self.device)
-
-        with torch.no_grad():
-            feat = self.model.encode_image(px)
-
-        feat = F.normalize(feat, dim=-1)
-        return feat.cpu()
-
 def get_best_device():
     # Apple M-series GPU
     if torch.backends.mps.is_available():

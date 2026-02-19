@@ -63,10 +63,6 @@ class InterVLCaptioner:
         if quiet_mode:
             transformers.logging.set_verbosity_error()
 
-        #TODO: SHK check if this is needed. It seems that the tokenizer doesn't have a pad token, which causes issues with generation. Setting it to eos token seems to work fine.
-        #self.tokenizer.pad_token = self.tokenizer.eos_token
-        #self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
-
         # tokenizer
         self.tokenizer = AutoTokenizer.from_pretrained(
             model_name,
@@ -105,20 +101,6 @@ class InterVLCaptioner:
     # ---------------------------------------------------------------
     # Caption a single object crop
     # ---------------------------------------------------------------
-    def caption_object_OLD(self, rgb_crop):
-        print("Captioning object crop...")
-        pv = self.preprocess_crop(rgb_crop).to(self.device).to(torch.bfloat16)
-
-        question = "<image>\nDescribe this object briefly."
-        response = self.model.chat(
-            self.tokenizer,
-            pv,
-            question,
-            self.generation_config
-        )
-
-        return response
-
     def caption_object(self, rgb_crop):
         print("Captioning object crop...")
         pv = self.preprocess_crop(rgb_crop).to(self.device).to(torch.bfloat16)
@@ -133,55 +115,9 @@ class InterVLCaptioner:
 
         return response
 
-    # ---------------------------------------------------------------
-    # Relationship reasoning between two object descriptions
-    # ---------------------------------------------------------------
-    def relationship(self, descA, descB, geom_hint=None):
-
-        query = f"Object A: {descA}\nObject B: {descB}\n"
-        if geom_hint:
-            query += f"Spatial hint: {geom_hint}\n"
-        query += "Describe the relationship between A and B in one short phrase."
-
-        gen_cfg = dict(max_new_tokens=50, do_sample=False)
-
-        # NOTE: No image needed for relationship reasoning
-        response = self.model.chat(
-            self.tokenizer,
-            None,
-            query,
-            gen_cfg
-        )
-
-        return response.strip()
-
-
     # ----------------------------------------------------------------------------
     # relationship reasoning between two image crops
     # ----------------------------------------------------------------------------
-    def relationship_between_crops(self, cropA, cropB):
-
-        pvA = self.preprocess_crop(cropA).to(self.device).to(torch.bfloat16)
-        pvB = self.preprocess_crop(cropB).to(self.device).to(torch.bfloat16)
-
-        pixel_values = torch.cat((pvA, pvB), dim=0)
-        num_patches_list = [pvA.size(0), pvB.size(0)]
-
-        question = (
-            "Image A: <image>\n"
-            "Image B: <image>\n"
-            "Describe the relationship between A and B in one short phrase."
-        )
-
-        result = self.model.chat(
-            self.tokenizer,
-            pixel_values,
-            question,
-            self.generation_config,
-            num_patches_list=num_patches_list
-        )
-        return result
-
     def relation_from_paircrop(self, crop_image, centerA, centerB):
         """
         Ask InterVL to infer the relationship between two objects

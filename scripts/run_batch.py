@@ -9,11 +9,11 @@ if __name__ == "__main__":
         ann_dir="/home/shokoofeh/Labrotation_SceneGraph/datasets/annotationfiles",
         output_root="/home/shokoofeh/Labrotation_SceneGraph/experiments/results",
 
-        max_frames=3,
-        max_videos=2,
+        max_frames=90,
+        max_videos=20,
         device="cuda",
 
-        draw_scene_graph=True,
+        draw_scene_graph=False,
         store_crop=True,
         enable_caption=False,
         quiet_mode=True,

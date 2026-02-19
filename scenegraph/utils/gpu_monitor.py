@@ -1,5 +1,4 @@
 import torch
-import time
 
 def get_gpu_mem():
     """

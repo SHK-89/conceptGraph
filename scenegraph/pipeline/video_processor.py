@@ -45,6 +45,7 @@ def process_single_video(
 
     print(f"✔ Finished {video_name}")
 
+#TODO:SHK decide which version should I keep later.
     #if config.draw_scene_graph:
      #   visualize_all_frames(result)
 

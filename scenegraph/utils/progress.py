@@ -1,5 +1,3 @@
-# scenegraph/utils/progress.py
-
 import time
 from scenegraph.utils.gpu_monitor import get_gpu_mem, format_time
 
