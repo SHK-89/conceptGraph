@@ -1,6 +1,6 @@
-from scenegraph.core.scene_graph import VideoSceneGraph
-from scenegraph.stages.object_extraction import ObjectExtractionStage
-from scenegraph.stages.relation_inference import RelationInferenceStage
+from scene_graph.modules.core.scene_graph import VideoSceneGraph
+from scene_graph.modules.stages.object_extraction import ObjectExtractionStage
+from scene_graph.modules.stages.relation_inference import RelationInferenceStage
 
 
 class ConceptGraphsPipeline:

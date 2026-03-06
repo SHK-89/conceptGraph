@@ -1,6 +1,6 @@
 import json
 import os
-from scenegraph.core.scene_graph import VideoSceneGraph
+from scene_graph.modules.core.scene_graph import VideoSceneGraph
 
 
 class SceneGraphJSONExporter:

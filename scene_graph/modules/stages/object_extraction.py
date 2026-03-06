@@ -1,8 +1,8 @@
 import cv2
 from tqdm import tqdm
 from typing import Tuple, Dict, List
-from scenegraph.core.models import DetectedObject
-from scenegraph.geometry.geom2d import bbox_center
+from scene_graph.modules.core.models import DetectedObject
+from scene_graph.modules.geometry.geom2d import bbox_center
 
 
 class ObjectExtractionStage:

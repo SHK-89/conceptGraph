@@ -1,5 +1,5 @@
 import time
-from scenegraph.utils.gpu_monitor import get_gpu_mem, format_time
+from scene_graph.modules.utils.gpu_monitor import get_gpu_mem, format_time
 
 def update_progress_bar(pbar, start_time):
     used, total = get_gpu_mem()

@@ -2,12 +2,12 @@ import time
 import traceback
 from tqdm import tqdm
 
-from scenegraph.data.uvo_dataset import UVOVideoDataset
-from scenegraph.pipeline.pipleline_builder import build_pipeline
-from scenegraph.pipeline.video_processor import process_single_video
-from scenegraph.utils.loggin_utils import setup_logger
-from scenegraph.utils.progress import update_progress_bar
-from scenegraph.config.config import BatchConfig
+from scene_graph.modules.data.uvo_dataset import UVOVideoDataset
+from scene_graph.modules.pipeline.pipleline_builder import build_pipeline
+from scene_graph.modules.pipeline.video_processor import process_single_video
+from scene_graph.modules.utils.loggin_utils import setup_logger
+from scene_graph.modules.utils.progress import update_progress_bar
+from scene_graph.modules.config.config import BatchConfig
 
 
 def run_batch(config: BatchConfig):

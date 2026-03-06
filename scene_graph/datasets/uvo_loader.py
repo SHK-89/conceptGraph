@@ -1,4 +1,4 @@
-from segmentation.uvo_segmenter import UVOSegmenter
+from scene_graph.modules.segmentation.uvo_segmenter import UVOSegmenter
 
 
 def load_uvo_video_dataset(video_path, annotation_path, K, max_frames=None):

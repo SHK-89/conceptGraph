@@ -1,5 +1,5 @@
-from scenegraph.pipeline.batch_runner import run_batch
-from scenegraph.config.config import BatchConfig
+from scene_graph.modules.pipeline.batch_runner import run_batch
+from scene_graph.modules.config.config import BatchConfig
 
 
 if __name__ == "__main__":

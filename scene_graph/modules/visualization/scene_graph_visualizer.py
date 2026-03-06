@@ -3,8 +3,8 @@ import cv2
 import matplotlib.pyplot as plt
 import networkx as nx
 
-from scenegraph.core.scene_graph import VideoSceneGraph
-from scenegraph.adapters.networkx_adapter import NetworkXAdapter
+from scene_graph.modules.core.scene_graph import VideoSceneGraph
+from scene_graph.modules.adapters.networkx_adapter import NetworkXAdapter
 
 
 class SceneGraphVisualizer:

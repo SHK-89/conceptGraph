@@ -1,6 +1,6 @@
 from typing import List, Dict
-from scenegraph.core.models import RelationEdge
-from scenegraph.geometry.geom2d import crop_pair_region, remap_center
+from scene_graph.modules.core.models import RelationEdge
+from scene_graph.modules.geometry.geom2d import crop_pair_region, remap_center
 
 
 class RelationInferenceStage:

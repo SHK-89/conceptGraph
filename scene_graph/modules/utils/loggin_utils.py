@@ -1,7 +1,7 @@
 import logging
 
 
-def setup_logger(name: str = "scenegraph") -> logging.Logger:
+def setup_logger(name: str = "modules") -> logging.Logger:
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
 

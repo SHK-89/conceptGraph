@@ -1,13 +1,11 @@
 
 import os
 
-from scenegraph.core.scene_graph import VideoSceneGraph
-from scenegraph.io.json_exporter import SceneGraphJSONExporter
-from scenegraph.utils.json_export import save_master_video_json
-from scenegraph.visualization.scene_graph_visualizer import SceneGraphVisualizer
-from scenegraph.visualization.vis import visualize_all_frames
+from scene_graph.modules.core.scene_graph import VideoSceneGraph
+from scene_graph.modules.io.json_exporter import SceneGraphJSONExporter
+from scene_graph.modules.visualization.scene_graph_visualizer import SceneGraphVisualizer
 
-from scenegraph.config.config import BatchConfig
+from scene_graph.modules.config.config import BatchConfig
 
 
 def process_single_video(

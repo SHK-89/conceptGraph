@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Dict, List
 import numpy as np
-from scenegraph.core.models import DetectedObject, RelationEdge
+from scene_graph.modules.core.models import DetectedObject, RelationEdge
 
 
 @dataclass
