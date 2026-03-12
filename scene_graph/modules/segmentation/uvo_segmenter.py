@@ -32,7 +32,7 @@ class UVOSegmenter:
         Returns for a given frame:
             masks  : list of bool arrays (HxW)
             bboxes : list of [x, y, w, h]
-            ids    : list of integer instance IDs (0..N-1)
+            ids    : object IDs (integers, can be used for tracking across frames)
         """
         key = str(frame_idx)
         if key not in self.data:
@@ -44,24 +44,21 @@ class UVOSegmenter:
         bboxes = []
         ids = []
 
-        for inst_id, ann in enumerate(objs):
+        for _, ann in enumerate(objs):
             # ----------------------------------------
             # Skip invalid objects
             # ----------------------------------------
-            if ann["box"] is None:
+            if ann["box"] is None or ann["seg"] is None or ann["seg"]["counts"] is None:
                 continue
-            if ann["seg"] is None:
-                continue
-            if ann["seg"]["counts"] is None:
-                continue
+            #if ann["seg"] is None:
+             #   continue
+            #if ann["seg"]["counts"] is None:
+             #   continue
 
             box = ann["box"]
             if box == [0.0, 0.0, 0.0, 0.0]:
-                continue  # empty box → skip
+                continue
 
-            # ----------------------------------------
-            # Decode mask
-            # ----------------------------------------
             try:
                 mask = mask_util.decode(ann["seg"]).astype(bool)
             except Exception as e:
@@ -70,6 +67,6 @@ class UVOSegmenter:
 
             masks.append(mask)
             bboxes.append(box)
-            ids.append(inst_id)  # always a clean integer ID
+            ids.append(ann["obj_id"])  # always a clean integer ID
 
         return masks, bboxes, ids
