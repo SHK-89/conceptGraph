@@ -1,20 +1,22 @@
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
 
-# Virtual environments
+# Environments
 .venv/
 venv/
 env/
 
-# PyCharm / JetBrains
-.idea/workspace.xml
-.idea/usage.statistics.xml
-.idea/shelf/
+# PyCharm
+.idea/
 *.iws
 
-# Common Python tool caches
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Tool caches
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.ipynb_checkpoints/
