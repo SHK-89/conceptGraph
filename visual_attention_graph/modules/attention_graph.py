@@ -3,30 +3,16 @@ import networkx as nx
 
 class AttentionGraphBuilder:
 
-    def __init__(self, transition_matrix, object_ids):
+    def __init__(self):
 
-        self.matrix = transition_matrix
-        self.object_ids = object_ids
+        pass
 
-    def build_graph(self):
+    def build(self, transitions):
 
         G = nx.DiGraph()
 
-        for obj in self.object_ids:
-            G.add_node(obj)
+        for (src, dst), weight in transitions:
 
-        n = len(self.object_ids)
-
-        for i in range(n):
-            for j in range(n):
-
-                weight = self.matrix[i, j]
-
-                if weight > 0:
-                    G.add_edge(
-                        self.object_ids[i],
-                        self.object_ids[j],
-                        weight=weight
-                    )
+            G.add_edge(src, dst, weight=weight)
 
         return G
