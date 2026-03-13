@@ -6,4 +6,5 @@ class BatchConfig:
     ann_dir: str
     gaze_csv: str
     output_root: str
+    video_name: str
 

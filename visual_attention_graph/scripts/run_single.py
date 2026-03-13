@@ -1,7 +1,5 @@
 from visual_attention_graph.modules.pipeline.attention_pipeline import AttentionPipeline
 from visual_attention_graph.modules.graph_exporter import GraphExporter
-from visual_attention_graph.debug.debug_video_runner import DebugVideoRunner
-import os
 
 
 GAZE_CSV = r"C:\SCIoI\Labrotation_SceneGraph\visual_attention_graph\data\eye_movement_data.csv"
@@ -10,7 +8,7 @@ ANNOTATION_DIR = r"C:\SCIoI\Labrotation_SceneGraph\scene_graph\datasets\annotati
 
 VIDEO_DIR = r"C:\SCIoI\Labrotation_SceneGraph\scene_graph\datasets\uvoVideos"
 
-VIDEO_NAME = "-ri90Xykrxg.mp4"
+VIDEO_NAME = "-0CNBzthkZ4.mp4"
 
 
 pipeline = AttentionPipeline(

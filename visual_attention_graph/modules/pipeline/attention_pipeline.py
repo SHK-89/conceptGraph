@@ -21,34 +21,6 @@ class AttentionPipeline:
         self.scanpath_builder = ScanpathBuilder(parser)
         self.graph_builder = GraphBuilder()
 
-    def run_single_video_OLD(self, video_name):
-
-        video_df = self.df[self.df["filename"] == video_name]
-
-        annotation_path = os.path.join(
-            self.annotation_dir,
-            f"{video_name[:-4]}.pkl"
-        )
-        print("Loading annotations from:", annotation_path)
-        print("Annotation file exists:", os.path.exists(annotation_path))
-        print("Annotation file path:", annotation_path)
-        with open(annotation_path, "rb") as f:
-            annotations = pickle.load(f)
-
-        print("Video:", video_name)
-        print("Total rows:", len(video_df))
-        print("Unique participants:", video_df["subject"].nunique())
-        print("Total annotations:", sum(len(v) for v in annotations.values()))
-        print("annotation names:", list(annotations.keys())[:])
-
-        scanpath = self.scanpath_builder.build_scanpath(
-            video_df,
-            annotations
-        )
-
-        graph = self.graph_builder.build(scanpath)
-
-        return graph
 
     def run_single_video(self, video_name):
 
@@ -62,6 +34,15 @@ class AttentionPipeline:
         with open(annotation_path, "rb") as f:
 
             annotations = pickle.load(f)
+
+        print("Loading annotations from:", annotation_path)
+        print("Annotation file exists:", os.path.exists(annotation_path))
+        print("Annotation file path:", annotation_path)
+        print("Video:", video_name)
+        print("Total rows:", len(video_df))
+        print("Unique participants:", video_df["subject"].nunique())
+        print("Total annotations:", sum(len(v) for v in annotations.values()))
+        print("annotation names:", list(annotations.keys())[:])
 
         all_scanpaths = []
 
