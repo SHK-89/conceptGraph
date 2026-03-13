@@ -25,19 +25,5 @@ exporter = GraphExporter(output_dir="outputs")
 
 exporter.save(graph, VIDEO_NAME)
 
-
-
-video_folder = os.path.join("outputs", VIDEO_NAME[:-4])
-
-
-debugger = DebugVideoRunner(
-    GAZE_CSV,
-    ANNOTATION_DIR,
-    VIDEO_DIR
-)
-
-debugger.run(VIDEO_NAME, video_folder)
-
-
 print("Nodes:", graph.number_of_nodes())
 print("Edges:", graph.number_of_edges())

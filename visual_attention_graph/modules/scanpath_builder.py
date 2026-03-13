@@ -1,31 +1,5 @@
 import ast
 
-
-class ScanpathBuilder_OLD:
-
-    def __init__(self, parser):
-        self.parser = parser
-
-
-    def build_scanpath(self, participant_df, annotations):
-
-        scanpath = []
-
-        for _, row in participant_df.iterrows():
-
-            if row["event"] != "FOV":
-                continue
-
-            objects = self.parser.extract_objects(row, annotations)
-
-            for obj in objects:
-
-                scanpath.append(obj)
-
-        return scanpath
-
-
-
 class ScanpathBuilder:
 
     def __init__(self, parser):
