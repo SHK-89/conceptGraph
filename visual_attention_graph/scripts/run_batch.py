@@ -1,10 +1,28 @@
-from modules.pipeline import VisualAttentionGraphPipeline
-from modules.visualization import GraphVisualizer
+from visual_attention_graph.modules.graph_exporter import GraphExporter
+from visual_attention_graph.modules.pipeline.attention_pipeline import AttentionPipeline
 
-CSV_PATH = "data/eye_movement_data.csv"
 
-pipeline = VisualAttentionGraphPipeline(CSV_PATH)
+GAZE_CSV = "C:\SCIoI\Labrotation_SceneGraph\\visual_attention_graph\data\eye_movement_data.csv"
+ANNOTATION_DIR = "C:\SCIoI\Labrotation_SceneGraph\scene_graph\datasets\\annotationfiles"
 
-graphs = pipeline.run()
 
-print("Graphs created:", len(graphs))
+pipeline = AttentionPipeline(
+    GAZE_CSV,
+    ANNOTATION_DIR
+)
+
+exporter = GraphExporter(output_dir="outputs")
+
+
+graphs = pipeline.run_all_videos()
+
+
+for video, graph in graphs.items():
+
+    exporter.save(graph, video)
+
+    print(
+        video,
+        "nodes:", graph.number_of_nodes(),
+        "edges:", graph.number_of_edges()
+    )

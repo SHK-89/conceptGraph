@@ -31,7 +31,7 @@ class SceneGraphJSONExporter:
                 "frame_index": frame_idx,
                 "objects": [
                     {
-                        "id": obj.obj_id,
+                        "ojb_id": obj.obj_id,
                         "bbox": list(obj.bbox),
                         "center": list(obj.center)
                     }
