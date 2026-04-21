@@ -24,13 +24,6 @@ The `master` branch currently includes the following main components: `scene_gra
 
 A brief overview of the folders:
 
-- `InternVL/`  
-  Vision-language model components used for relation inference
-
-- `analyze_annotation/`  
-  Utilities for inspecting and processing annotation files
-
-
 - `scene_graph/`  
   Scene graph generation pipeline and graph construction code
 
