@@ -40,7 +40,7 @@ A brief overview of the folders:
 - `clustering/`  
   Code for clustering using K-medoids.
 
-  - `cluster_analyzer/`  
+- `cluster_analyzer/`  
   Code for the last step of the pipeline to compare the whole predicate cluster with the cluster preferred by gaze.
 
 ---
