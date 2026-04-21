@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+*.iws
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+**/results
+**/datasets
+/embedding/pretrained/
+/scene_graph/datasets/
+/scene_graph/experiments/
