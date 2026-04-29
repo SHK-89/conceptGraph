@@ -20,7 +20,7 @@ The central research question is:
 
 ## Repository Structure
 
-The `master` branch currently includes the following main components: `scene_graph`, `embedding`, `clustering`, and `cluster_analyzer`. :contentReference[oaicite:1]{index=1}
+The `master` branch currently includes the following main components: `scene_graph`, `embedding`, `clustering`, and `cluster_analyzer`.
 
 A brief overview of the folders:
 
